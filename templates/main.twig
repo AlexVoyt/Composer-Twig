@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<head>
+    <title>{{Title}}</title>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/>
+</head>
+<body>
+
+<table>
+    <tr>
+        <th>Name</th>    
+        <th>Health</th>
+        <th>Damage</th>
+        <th>Attack</th>
+        <th>Defense</th>
+        <th>Speed</th>
+    </tr>
+    
+    {% for Creature in Creatures %}
+    <tr>
+        <td>{{Creature["Name"]}}</td>    
+        <td>{{Creature["Health"]}}</td>    
+        <td>{{Creature["Damage"]}}</td>    
+        <td>{{Creature["Attack"]}}</td>    
+        <td>{{Creature["Defense"]}}</td>    
+        <td>{{Creature["Speed"]}}</td>    
+    </tr>
+    {% endfor %}
+</table>
+
+</body>
+</html>

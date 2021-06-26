@@ -1,0 +1,10 @@
+{
+    "name": "av/composer_twig_example",
+    "description": "yeah",
+    "type": "project",
+    "require": {
+        "twig/twig": "3.x-dev"
+    },
+    "license": "n",
+    "minimum-stability": "dev"
+}
